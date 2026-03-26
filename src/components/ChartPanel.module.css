@@ -1,0 +1,48 @@
+.panel {
+  max-width: 800px;
+}
+
+.placeholder {
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+  padding: 32px 0;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 12px;
+}
+
+.chartSection {
+  margin-bottom: 32px;
+}
+
+.chartTitle {
+  font-size: 15px;
+  font-weight: 500;
+  color: #555;
+  margin: 0 0 8px;
+}
+
+.tooltipContainer {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 13px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tooltipLabel {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.tooltipItem {
+  color: #555;
+  line-height: 1.6;
+}

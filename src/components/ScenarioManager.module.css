@@ -1,0 +1,87 @@
+.container {
+  max-width: 480px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.createBtn {
+  padding: 6px 14px;
+  font-size: 13px;
+  background: #1677ff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.createBtn:disabled {
+  background: #d9d9d9;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: #fafafa;
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #666;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.tab:hover {
+  border-color: #1677ff;
+}
+
+.tabActive {
+  border-color: #1677ff;
+  color: #1677ff;
+  background: #e6f4ff;
+}
+
+.tabName {
+  user-select: none;
+}
+
+.deleteBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1;
+  background: none;
+  border: none;
+  border-radius: 50%;
+  color: #999;
+  cursor: pointer;
+}
+
+.deleteBtn:hover {
+  background: #ff4d4f;
+  color: #fff;
+}

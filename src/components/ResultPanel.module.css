@@ -1,0 +1,95 @@
+.panel {
+  max-width: 480px;
+}
+
+.placeholder {
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+  padding: 32px 0;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 12px;
+}
+
+.messageBanner {
+  padding: 10px 14px;
+  background: #fff8e1;
+  border: 1px solid #ffe082;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #795548;
+  margin-bottom: 16px;
+}
+
+.metrics {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.metricCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  background: #fafafa;
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+}
+
+.metricLabel {
+  font-size: 14px;
+  color: #666;
+}
+
+.metricValue {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.comparisonSection {
+  margin-top: 24px;
+}
+
+.comparisonTitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 12px;
+}
+
+.comparisonTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.comparisonTable th,
+.comparisonTable td {
+  border: 1px solid #e8e8e8;
+  padding: 8px 12px;
+  text-align: center;
+}
+
+.comparisonTable th {
+  background: #f5f5f5;
+  font-weight: 600;
+  color: #333;
+}
+
+.comparisonTable td:first-child {
+  text-align: left;
+  font-weight: 500;
+  color: #666;
+  background: #fafafa;
+}
+
+.comparisonTable tbody tr:nth-child(even) {
+  background: #fafafa;
+}
